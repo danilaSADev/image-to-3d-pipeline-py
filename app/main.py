@@ -13,7 +13,7 @@ from .storage import get_model_path, save_model
 
 app = FastAPI(title="Image to 3D API")
 
-STABILITY_API_URL = "https://api.stability.ai/vX/3d/generate"
+STABILITY_API_URL = "https://api.stability.ai/v2beta/3d/stable-fast-3d"
 
 
 @app.post("/generate")
